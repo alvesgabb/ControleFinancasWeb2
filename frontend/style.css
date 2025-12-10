@@ -1,0 +1,120 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e5e5e5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+section {
+  background: #1e1e1e;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 600px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  border: 1px solid #2a2a2a;
+}
+
+h2 {
+  margin-top: 0;
+  color: #cfcfcf;
+}
+
+input {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #2a2a2a;
+  color: #eaeaea;
+  font-size: 16px;
+}
+
+select{
+    padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #2a2a2a;
+  color: #eaeaea;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #888;
+  font-size: 16px;
+}
+
+button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+.delete button {
+  background: #ef4444;
+}
+
+.delete button:hover {
+  background: #dc2626;
+}
+
+Lista de usuários 
+.lista-container {
+  margin-top: 15px;
+  padding: 10px;
+  background: #181818;
+  border-radius: 6px;
+  border: 1px solid #2c2c2c;
+}
+
+.lista-transacoes {
+  list-style: none;
+  padding-left: 0;
+}
+
+.lista-transacoes li {
+  background: #2a2a2a;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  color: #eaeaea;
+}
+
+.lista-transacoes .id {
+  color: #888;
+  font-size: 0.9em;
+}
+
+Botão de deletar por ID 
+.deleteID button  {
+  background: #f97316;
+}
+
+.deleteID:hover {
+  background: #ea580c;
+}
