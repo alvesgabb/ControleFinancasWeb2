@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sistema Financeiro</title>
+</head>
+<body>
+
+<section class="form">
+  <h1>Controle Financeiro</h1>
+  <h2>Fazer Lançamento</h2>
+   <form onsubmit="lancarFinanca(event)" >
+    <input type="text" id="descricao" placeholder="Descrição" required>
+    <input type="number" id="valor" placeholder="Valor" required>
+    <select id="select" required>
+      <option value="">Selecione o tipo</option>
+      <option value="entrada">Entrada</option>
+      <option value="saida">Saída</option>
+    </select>
+    <input type="date" id="data" required>
+    <button type="submit">Adicionar</button>
+  </form>
+</section>
+
+  <section>
+  <h2> Saldo: <span id="saldo">R$ 0,00</span></h2>
+ </section>
+
+  <section class="listar">
+    <h2>Listar Lançamentos</h2>
+    <button type="button" onclick="listarLancamentos()">Listar</button>
+    <div id="resultado" class="lista-container"></div>
+  </section>
+
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
