@@ -1,6 +1,6 @@
 //Funções das rotas
 
-const TransacaoModel= require("../models/transacao-model")
+const TransacaoModel= require("../models/transacoes-model")
 
 //GET
 function getAll(req, res) {
