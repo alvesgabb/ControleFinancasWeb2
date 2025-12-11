@@ -110,6 +110,8 @@ async function mostrarSaldo() {
 
   document.getElementById("saldo").innerText=`R$ ${dados.saldo}`
 
-
   
 }
+mostrarSaldo()
+listarLancamentos()
+
