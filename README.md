@@ -8,7 +8,7 @@ Esse projeto é uma aplicação WEB de Controle Financeiro Pessoal que permite o
 
 **Frontend:** HTML5,CSS3,JavaScript
 **Backend:** Node.js, Express.js
-**Banco de Dados:** Sqlite
+**Banco de Dados:** better-sqlite3
 
 *Como executar a aplicação:*
 
